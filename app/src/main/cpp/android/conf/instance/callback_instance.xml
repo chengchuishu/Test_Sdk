@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<instance_list>
+		<instance type="callback">
+			<name>default@TemplateModuleCallback</name>
+			<class_name>TemplateCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@TemplateGenerateEventIoctlStrategyCallback</name>
+			<class_name>IoctlStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@TemplateStrategyCallback</name>
+			<class_name>TemplateStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@TemplateTransitionCallback</name>
+			<class_name>CommonTransitionCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_0StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_0ToS1_1StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_0ToS1_2StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_1StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_1ToS1_2StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_1ToS1_0StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_2StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS1_2ToS1_0StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_10StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_10ToS2_11StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_11StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_11ToS2_12StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_12StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@OnS2_12ToS2_10StrategyCallback</name>
+			<class_name>CommonStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@ManagerSelfStrategyCallback</name>
+			<class_name>ManagerSelfStrategyCallback</class_name>
+		</instance>
+		<instance type="callback">
+			<name>default@StateMachineStrategyProxyCallbackImpl</name>
+			<class_name>BaseStrategyProxyCallbackImpl</class_name>
+		</instance>
+	</instance_list>
+</coreframework>

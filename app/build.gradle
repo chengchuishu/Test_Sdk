@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.yunshen.test_sdk"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11"
+                abiFilters "armeabi-v7a"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    // sourceSets用于指定依赖的第三方so库的存放地址
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/cpp/thirdparty/lib/json','src/main/cpp/thirdparty/lib/tinyxml2','src/main/cpp/thirdparty/lib/log4cplus', 'src/main/cpp/android/libs']
+        }
+    }
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libysoslog.so'
+        pickFirst 'lib/arm64-v8a/libysoslog.so'
+        pickFirst 'lib/x86_64/libysoslog.so'
+        pickFirst 'lib/x86/libysoslog.so'
+        pickFirst 'lib/armeabi-v7a/libsys_platform_sdk.so'
+        pickFirst 'lib/arm64-v8a/libsys_platform_sdk.so'
+        pickFirst 'lib/x86_64/libsys_platform_sdk.so'
+        pickFirst 'lib/x86/libsys_platform_sdk.so'
+        pickFirst 'lib/armeabi-v7a/liblog4cplus.so'
+        pickFirst 'lib/arm64-v8a/liblog4cplus.so'
+        pickFirst 'lib/x86_64/liblog4cplus.so'
+        pickFirst 'lib/x86/liblog4cplus.so'
+        pickFirst 'lib/armeabi-v7a/libtinyxml2.so'
+        pickFirst 'lib/arm64-v8a/libtinyxml2.so'
+        pickFirst 'lib/x86_64/libtinyxml2.so'
+        pickFirst 'lib/x86/libtinyxml2.so'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

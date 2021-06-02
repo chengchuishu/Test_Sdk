@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<callback>
+		<class_name>CommonStrategyCallback</class_name>
+		<name>default@OnS1_1StrategyCallback</name>
+		<version>1.0.0.1</version>
+		<condition>strategy_condition/s1_1_ready_condition.xml</condition>
+		<remark>CommonStrategyCallback</remark>
+	</callback>
+</coreframework>

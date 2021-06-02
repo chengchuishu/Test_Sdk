@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <service_list>
+	  <service name="default@TemplateModule" alias="template" >
+      <description>
+        Template.
+      </description>
+    </service>
+ </service_list>
+</coreframework>

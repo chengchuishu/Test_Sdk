@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <callback>
+    <class_name>TemplateStrategyCallback</class_name>
+    <name>default@TemplateStrategyCallback</name>
+    <version>1.0.0.1</version>
+    <input_type>null</input_type>
+    <output_type>text_pure|text_json</output_type>
+    <remark>TemplateStrategyCallback</remark>
+  </callback>
+</coreframework>

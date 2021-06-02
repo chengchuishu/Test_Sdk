@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<!--  Protocol  -->
+	<instance_list>
+		<instance type="protocol">
+			<name>default@ConvertProtocol</name>
+			<class_name>ConvertProtocol</class_name>
+		</instance>
+		
+	    <instance type="protocol">
+			<name>default@StringProtocol</name>
+			<class_name>StringProtocol</class_name>
+		</instance>
+		
+	</instance_list>
+</coreframework>

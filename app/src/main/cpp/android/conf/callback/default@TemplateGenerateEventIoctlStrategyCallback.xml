@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <callback>
+    <class_name>IoctlStrategyCallback</class_name>
+    <name>default@TemplateGenerateEventIoctlStrategyCallback</name>
+    <version>1.0.0.1</version>
+    <input_type>null</input_type>
+    <output_type>text_pure|text_json</output_type>
+    <remark>remark</remark>
+    
+    <service>default@TemplateModule</service>
+    <id>25313</id>
+    <type></type>
+    <value></value>
+    <ignore>false</ignore>
+    <notify>true</notify>
+  </callback>
+</coreframework>

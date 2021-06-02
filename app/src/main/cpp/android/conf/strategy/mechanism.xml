@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<mechanism type="statemachine">
+		<name>main</name>
+		<state>S1_0</state>
+		<state>S1_1</state>
+		<state>S1_2</state>
+		<transition file="transition4main.xml"/>
+		<event>RegDoServiceEvent|StateMachineCommonCallback</event>
+		<event>UnregDoServiceEvent|StateMachineCommonCallback</event>
+		<event>IOCtl|StateMachineCommonCallback</event>
+		<event>Switch|StateMachineCommonCallback</event>
+		<event>Ready|StateMachineCommonCallback</event>
+	</mechanism>
+	<mechanism type="statemachine">
+		<name>Sub_S1_1</name>
+		<parent>
+			<name>main</name>
+			<state>S1_1</state>
+		</parent>
+		<state>S2_10</state>
+		<state>S2_11</state>
+		<state>S2_12</state>
+		<transition file="transition4sub_s1_1.xml"/>
+		<event>RegDoServiceEvent|StateMachineCommonCallback</event>
+		<event>UnregDoServiceEvent|StateMachineCommonCallback</event>
+		<event>IOCtl|StateMachineCommonCallback</event>
+		<event>Switch|StateMachineCommonCallback</event>
+		<event>Ready|StateMachineCommonCallback</event>
+	</mechanism>
+</coreframework>

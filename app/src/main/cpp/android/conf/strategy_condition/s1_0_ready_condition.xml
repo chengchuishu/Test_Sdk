@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<condition name="ready" type="service" ignore_self="false">
+		<condition_before>
+			<set_data tag="set_data" data_interface="global_data_key" data_key="machine_state" data_content="main@S1_0"/>
+		</condition_before>
+		<condition_after/>
+	</condition>
+</coreframework>

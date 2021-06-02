@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <module_link id="1">
+    <name>template_module_link</name>
+	  <autorun>false</autorun>
+    <remark>using templateModule</remark>
+    <moduleinstance id="1" level="1">
+      <module_name>TemplateModule</module_name>
+      <instance_name>default@TemplateModule</instance_name>
+      <next_module></next_module>
+    </moduleinstance>
+  </module_link>
+</coreframework>

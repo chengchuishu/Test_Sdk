@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<transition>
+		<name>OnS2_10</name>
+		<from>S2_10</from>
+		<to/>
+		<service>default@TemplateModule|</service>
+		<event>Ready|default@OnS2_10StrategyCallback</event>
+		<event>template_generate_event|default@TemplateGenerateEventIoctlStrategyCallback</event>
+		<event>E2_10_event|default@OnS2_10ToS2_11StrategyCallback</event>
+		<event>E1_2_event|default@OnS1_1ToS1_2StrategyCallback</event>
+		<event>E1_5_event|default@OnS1_1ToS1_0StrategyCallback</event>
+		<transition_info>
+			<callback>default@TemplateTransitionCallback</callback>
+		</transition_info>
+	</transition>
+	<transition>
+		<name>OnS2_11</name>
+		<from>S2_11</from>
+		<to/>
+		<service>default@TemplateModule|</service>
+		<event>Ready|default@OnS2_11StrategyCallback</event>
+		<event>template_generate_event|default@TemplateGenerateEventIoctlStrategyCallback</event>
+		<event>E2_12_event|default@OnS2_11ToS2_12StrategyCallback</event>
+		<event>E1_2_event|default@OnS1_1ToS1_2StrategyCallback</event>
+		<event>E1_5_event|default@OnS1_1ToS1_0StrategyCallback</event>
+		<transition_info>
+			<callback>default@TemplateTransitionCallback</callback>
+		</transition_info>
+	</transition>
+	<transition>
+		<name>OnS2_12</name>
+		<from>S2_12</from>
+		<to/>
+		<service>default@TemplateModule|</service>
+		<event>Ready|default@OnS2_12StrategyCallback</event>
+		<event>template_generate_event|default@TemplateGenerateEventIoctlStrategyCallback</event>
+		<event>E2_13_event|default@OnS2_12ToS2_10StrategyCallback</event>
+		<event>E1_2_event|default@OnS1_1ToS1_2StrategyCallback</event>
+		<event>E1_5_event|default@OnS1_1ToS1_0StrategyCallback</event>
+		<transition_info>
+			<callback>default@TemplateTransitionCallback</callback>
+		</transition_info>
+	</transition>
+</coreframework>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<strategy>
+		<name>strategy_name</name>
+		<mechanism>mechanism.xml</mechanism>
+		<state>S1_0</state>
+	</strategy>
+</coreframework>

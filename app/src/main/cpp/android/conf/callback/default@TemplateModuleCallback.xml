@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <callback>
+    <class_name>TemplateCallback</class_name>
+    <name>default@TemplateModuleCallback</name>
+    <owner>default@TemplateModule</owner>
+    <version>1.0.0.1</version>
+    <input_type>null</input_type>
+    <output_type>null</output_type>
+    <remark>remark</remark>
+  </callback>
+</coreframework>

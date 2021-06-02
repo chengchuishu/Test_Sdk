@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<!--  Module_Link  -->
+	<instance_list>
+		<!-- add for linux-->
+        <!-- Template -->
+		<instance type="module_link">
+			<name>template_module_link</name>
+			<class_name>ModuleLinkImpl</class_name>
+		</instance>
+	</instance_list>
+</coreframework>

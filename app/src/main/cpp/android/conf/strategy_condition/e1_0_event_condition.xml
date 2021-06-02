@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<condition name="E1_0_event" event_name="E1_0_event" type="event" callback="E1_0_event_callback" ignore_self="false">
+		<condition_before/>
+		<condition_after>
+			<switch_notify ignore_error="true" tag="switch_notify" state_name="main@S1_1"/>
+		</condition_after>
+	</condition>
+</coreframework>

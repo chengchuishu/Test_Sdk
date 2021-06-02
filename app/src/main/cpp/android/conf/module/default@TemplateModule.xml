@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<!-- 大小写不区分，程序内部统一转成小写  -->
+	<module>
+		<name>default@TemplateModule</name>
+		<calss_name>TemplateModule</calss_name>
+		<!-- 第一位是Major 第二位：subversion 第三位:（revise version）修订版本号  第四位：日期或build版本号 -->
+		<version>1.0.0.1</version>
+		<type>Source</type>
+		<in_datatypes>null</in_datatypes>
+		<out_datatypes>null</out_datatypes>
+		<allocator>true</allocator>
+		<prefix>0</prefix>
+		<buffer_length>1024</buffer_length>
+		<revise>true</revise>
+		<buffer_number>1</buffer_number>
+		<capacity>10</capacity>
+		<remark>remark</remark>
+	</module>
+</coreframework>

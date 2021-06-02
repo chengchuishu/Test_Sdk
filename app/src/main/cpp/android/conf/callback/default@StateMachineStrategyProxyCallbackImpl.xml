@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+  <callback>
+    <class_name>BaseStrategyProxyCallbackImpl</class_name>
+    <name>default@StateMachineStrategyProxyCallbackImpl</name>
+    <version>1.0.0.1</version>
+    <input_type>null</input_type>
+    <output_type>text_pure|text_json</output_type>
+    <remark>remark</remark>
+    <!-- support mode type: client  internal  local  -->
+    <!-- add for linux -->
+    <!--mode>internal</mode>
+    <strategy>daemonstrategy</strategy-->
+	  <!--ioctl>event_name|service_name|type_id|default_value</ioctl-->
+  </callback>
+</coreframework>

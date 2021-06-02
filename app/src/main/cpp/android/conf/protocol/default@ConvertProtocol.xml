@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<protocol>
+		<name>default@ConvertProtocol</name>
+		<version>1.0.0.1</version>
+		<remark>ConvertProtocol</remark>
+		<first_answer>有什么可以帮助您的吗</first_answer>
+		<again_answer>我们又见面啦</again_answer>
+		<default_answer>您好,现在可以进行其他业务操作了</default_answer>
+	</protocol>
+</coreframework>

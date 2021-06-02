@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreframework>
+	<callback>
+		<name>default@TemplateTransitionCallback</name>
+		<version>1.0.0.1</version>
+		<condition>type|template_result|template_result_event|false</condition>
+		<condition>type|E1_0|E1_0_event|false</condition>
+		<condition>type|E1_2|E1_2_event|false</condition>
+		<condition>type|E1_3|E1_3_event|false</condition>
+		<condition>type|E1_4|E1_4_event|false</condition>
+		<condition>type|E1_5|E1_5_event|false</condition>
+		<condition>type|E2_10|E2_10_event|false</condition>
+		<condition>type|E2_12|E2_12_event|false</condition>
+		<condition>type|E2_13|E2_13_event|false</condition>
+		<condition>type|e1|e1_event|false</condition>
+		<remark>TemplateTransitionCallback</remark>
+	</callback>
+</coreframework>
